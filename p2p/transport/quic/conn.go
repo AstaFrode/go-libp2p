@@ -3,10 +3,10 @@ package libp2pquic
 import (
 	"context"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	tpt "github.com/libp2p/go-libp2p/core/transport"
+	ic "github.com/AstaFrode/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	tpt "github.com/AstaFrode/go-libp2p/core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/quic-go/quic-go"

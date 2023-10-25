@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/core/protocol"
 )
 
 var streamCounter atomic.Int64

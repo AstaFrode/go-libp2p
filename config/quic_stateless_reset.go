@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/crypto"
 
 	"github.com/quic-go/quic-go"
 )

@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	crypto_pb "github.com/libp2p/go-libp2p/core/crypto/pb"
+	"github.com/AstaFrode/go-libp2p/core/crypto"
+	crypto_pb "github.com/AstaFrode/go-libp2p/core/crypto/pb"
 )
 
 var message = []byte("Libp2p is the _best_!")

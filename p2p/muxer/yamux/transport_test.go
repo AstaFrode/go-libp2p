@@ -3,7 +3,7 @@ package yamux
 import (
 	"testing"
 
-	tmux "github.com/libp2p/go-libp2p/p2p/muxer/testsuite"
+	tmux "github.com/AstaFrode/go-libp2p/p2p/muxer/testsuite"
 )
 
 func TestDefaultTransport(t *testing.T) {

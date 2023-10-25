@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/AstaFrode/go-libp2p/core/protocol"
 )
 
 // Stream represents a bidirectional channel between two agents in

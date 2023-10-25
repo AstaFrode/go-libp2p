@@ -1,6 +1,6 @@
 package event
 
-import "github.com/libp2p/go-libp2p/core/peer"
+import "github.com/AstaFrode/go-libp2p/core/peer"
 
 // EvtPeerIdentificationCompleted is emitted when the initial identification round for a peer is completed.
 type EvtPeerIdentificationCompleted struct {

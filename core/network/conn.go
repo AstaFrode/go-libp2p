@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/protocol"
+	ic "github.com/AstaFrode/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/protocol"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

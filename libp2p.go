@@ -1,8 +1,8 @@
 package libp2p
 
 import (
-	"github.com/libp2p/go-libp2p/config"
-	"github.com/libp2p/go-libp2p/core/host"
+	"github.com/AstaFrode/go-libp2p/config"
+	"github.com/AstaFrode/go-libp2p/core/host"
 )
 
 // Config describes a set of settings for a libp2p node.

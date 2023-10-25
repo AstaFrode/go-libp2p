@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/host/autonat/pb"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/AstaFrode/go-libp2p/core/event"
+	"github.com/AstaFrode/go-libp2p/core/host"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/p2p/host/autonat/pb"
+	bhost "github.com/AstaFrode/go-libp2p/p2p/host/blank"
+	swarmt "github.com/AstaFrode/go-libp2p/p2p/net/swarm/testing"
 
 	"github.com/libp2p/go-msgio/pbio"
 

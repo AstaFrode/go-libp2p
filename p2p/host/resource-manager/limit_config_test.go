@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 
 	"github.com/stretchr/testify/require"
 )

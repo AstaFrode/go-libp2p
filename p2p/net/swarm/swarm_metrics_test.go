@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/network"
 	ma "github.com/multiformats/go-multiaddr"
 
 	mrand "math/rand"

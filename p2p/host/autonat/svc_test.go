@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/AstaFrode/go-libp2p/core/event"
+	"github.com/AstaFrode/go-libp2p/core/host"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	bhost "github.com/AstaFrode/go-libp2p/p2p/host/blank"
+	swarmt "github.com/AstaFrode/go-libp2p/p2p/net/swarm/testing"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

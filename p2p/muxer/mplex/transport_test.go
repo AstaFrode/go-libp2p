@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	test "github.com/libp2p/go-libp2p/p2p/muxer/testsuite"
+	test "github.com/AstaFrode/go-libp2p/p2p/muxer/testsuite"
+	"github.com/AstaFrode/go-libp2p/core/network"
 )
 
 func TestDefaultTransport(t *testing.T) {

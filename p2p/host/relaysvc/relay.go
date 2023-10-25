@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	relayv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/relay"
+	"github.com/AstaFrode/go-libp2p/core/event"
+	"github.com/AstaFrode/go-libp2p/core/host"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/p2p/host/eventbus"
+	relayv2 "github.com/AstaFrode/go-libp2p/p2p/protocol/circuitv2/relay"
 )
 
 type RelayManager struct {

@@ -7,8 +7,8 @@ import (
 	"io"
 	"testing"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	tpt "github.com/libp2p/go-libp2p/core/transport"
+	ic "github.com/AstaFrode/go-libp2p/core/crypto"
+	tpt "github.com/AstaFrode/go-libp2p/core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

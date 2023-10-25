@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	basic "github.com/libp2p/go-libp2p/p2p/host/basic"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
+	"github.com/AstaFrode/go-libp2p/core/event"
+	"github.com/AstaFrode/go-libp2p/core/host"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	basic "github.com/AstaFrode/go-libp2p/p2p/host/basic"
+	"github.com/AstaFrode/go-libp2p/p2p/host/eventbus"
 
 	logging "github.com/ipfs/go-log/v2"
 	ma "github.com/multiformats/go-multiaddr"

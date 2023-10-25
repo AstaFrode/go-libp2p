@@ -5,12 +5,12 @@ import (
 	"errors"
 	"net"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	tpt "github.com/libp2p/go-libp2p/core/transport"
-	p2ptls "github.com/libp2p/go-libp2p/p2p/security/tls"
-	"github.com/libp2p/go-libp2p/p2p/transport/quicreuse"
+	ic "github.com/AstaFrode/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/network"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	tpt "github.com/AstaFrode/go-libp2p/core/transport"
+	p2ptls "github.com/AstaFrode/go-libp2p/p2p/security/tls"
+	"github.com/AstaFrode/go-libp2p/p2p/transport/quicreuse"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/quic-go/quic-go"

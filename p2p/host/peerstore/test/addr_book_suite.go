@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pstore "github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/record"
-	"github.com/libp2p/go-libp2p/core/test"
+	"github.com/AstaFrode/go-libp2p/core/crypto"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	pstore "github.com/AstaFrode/go-libp2p/core/peerstore"
+	"github.com/AstaFrode/go-libp2p/core/record"
+	"github.com/AstaFrode/go-libp2p/core/test"
 
 	mockClock "github.com/benbjohnson/clock"
 	"github.com/multiformats/go-multiaddr"

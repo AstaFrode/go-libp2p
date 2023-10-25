@@ -3,8 +3,8 @@ package util
 import (
 	"errors"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	pbv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pb"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	pbv2 "github.com/AstaFrode/go-libp2p/p2p/protocol/circuitv2/pb"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

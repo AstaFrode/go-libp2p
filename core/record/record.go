@@ -4,7 +4,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/libp2p/go-libp2p/core/internal/catch"
+	"github.com/AstaFrode/go-libp2p/core/internal/catch"
 )
 
 var (
