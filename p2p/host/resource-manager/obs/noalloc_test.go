@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
+	rcmgr "github.com/AstaFrode/go-libp2p/p2p/host/resource-manager"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 )
