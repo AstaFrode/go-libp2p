@@ -49,19 +49,19 @@ type PubKeyUnmarshaller func(data []byte) (PubKey, error)
 type PrivKeyUnmarshaller func(data []byte) (PrivKey, error)
 
 // PubKeyUnmarshallers is a map of unmarshallers by key type
-var PubKeyUnmarshallers = map[pb.KeyType]PubKeyUnmarshaller{
-	pb.KeyType_RSA:       UnmarshalRsaPublicKey,
-	pb.KeyType_Ed25519:   UnmarshalEd25519PublicKey,
-	pb.KeyType_Secp256k1: UnmarshalSecp256k1PublicKey,
-	pb.KeyType_ECDSA:     UnmarshalECDSAPublicKey,
+var PubKeyUnmarshallers = map[pb.KeyType2]PubKeyUnmarshaller{
+	pb.KeyType2_RSA:       UnmarshalRsaPublicKey,
+	pb.KeyType2_Ed25519:   UnmarshalEd25519PublicKey,
+	pb.KeyType2_Secp256k1: UnmarshalSecp256k1PublicKey,
+	pb.KeyType2_ECDSA:     UnmarshalECDSAPublicKey,
 }
 
 // PrivKeyUnmarshallers is a map of unmarshallers by key type
-var PrivKeyUnmarshallers = map[pb.KeyType]PrivKeyUnmarshaller{
-	pb.KeyType_RSA:       UnmarshalRsaPrivateKey,
-	pb.KeyType_Ed25519:   UnmarshalEd25519PrivateKey,
-	pb.KeyType_Secp256k1: UnmarshalSecp256k1PrivateKey,
-	pb.KeyType_ECDSA:     UnmarshalECDSAPrivateKey,
+var PrivKeyUnmarshallers = map[pb.KeyType2]PrivKeyUnmarshaller{
+	pb.KeyType2_RSA:       UnmarshalRsaPrivateKey,
+	pb.KeyType2_Ed25519:   UnmarshalEd25519PrivateKey,
+	pb.KeyType2_Secp256k1: UnmarshalSecp256k1PrivateKey,
+	pb.KeyType2_ECDSA:     UnmarshalECDSAPrivateKey,
 }
 
 // Key represents a crypto key that can be compared to another key
@@ -76,7 +76,7 @@ type Key interface {
 	Raw() ([]byte, error)
 
 	// Type returns the protobuf key type.
-	Type() pb.KeyType
+	Type() pb.KeyType2
 }
 
 // PrivKey represents a private key that can be used to generate a public key and sign data

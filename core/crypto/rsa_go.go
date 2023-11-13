@@ -57,8 +57,8 @@ func (pk *RsaPublicKey) Verify(data, sig []byte) (success bool, err error) {
 	return true, nil
 }
 
-func (pk *RsaPublicKey) Type() pb.KeyType {
-	return pb.KeyType_RSA
+func (pk *RsaPublicKey) Type() pb.KeyType2 {
+	return pb.KeyType2_RSA
 }
 
 func (pk *RsaPublicKey) Raw() (res []byte, err error) {
@@ -89,8 +89,8 @@ func (sk *RsaPrivateKey) GetPublic() PubKey {
 	return &RsaPublicKey{k: sk.sk.PublicKey}
 }
 
-func (sk *RsaPrivateKey) Type() pb.KeyType {
-	return pb.KeyType_RSA
+func (sk *RsaPrivateKey) Type() pb.KeyType2 {
+	return pb.KeyType2_RSA
 }
 
 func (sk *RsaPrivateKey) Raw() (res []byte, err error) {
