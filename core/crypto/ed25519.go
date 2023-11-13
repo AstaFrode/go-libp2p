@@ -40,7 +40,7 @@ func GenerateEd25519Key(src io.Reader) (PrivKey, PubKey, error) {
 
 // Type of the private key (Ed25519).
 func (k *Ed25519PrivateKey) Type() pb.KeyType2 {
-	return pb.KeyType2_Ed25519
+	return pb.KeyType2_Ed255192
 }
 
 // Raw private key bytes.
@@ -83,7 +83,7 @@ func (k *Ed25519PrivateKey) Sign(msg []byte) (res []byte, err error) {
 
 // Type of the public key (Ed25519).
 func (k *Ed25519PublicKey) Type() pb.KeyType2 {
-	return pb.KeyType2_Ed25519
+	return pb.KeyType2_Ed255192
 }
 
 // Raw public key bytes.

@@ -53,7 +53,7 @@ func UnmarshalSecp256k1PublicKey(data []byte) (_k PubKey, err error) {
 
 // Type returns the private key type
 func (k *Secp256k1PrivateKey) Type() pb.KeyType2 {
-	return pb.KeyType2_Secp256k1
+	return pb.KeyType2_Secp256k12
 }
 
 // Raw returns the bytes of the key
@@ -88,7 +88,7 @@ func (k *Secp256k1PrivateKey) GetPublic() PubKey {
 
 // Type returns the public key type
 func (k *Secp256k1PublicKey) Type() pb.KeyType2 {
-	return pb.KeyType2_Secp256k1
+	return pb.KeyType2_Secp256k12
 }
 
 // Raw returns the bytes of the key

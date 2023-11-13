@@ -5,10 +5,10 @@ package crypto.pb;
 option go_package = "./;pb";
 
 enum KeyType2 {
-	RSA = 0;
-	Ed25519 = 1;
-	Secp256k1 = 2;
-	ECDSA = 3;
+	RSA2 = 0;
+	Ed255192 = 1;
+	Secp256k12 = 2;
+	ECDSA2 = 3;
 }
 
 message PublicKey {

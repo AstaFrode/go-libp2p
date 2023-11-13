@@ -116,7 +116,7 @@ func UnmarshalECDSAPublicKey(data []byte) (key PubKey, err error) {
 
 // Type returns the key type
 func (ePriv *ECDSAPrivateKey) Type() pb.KeyType2 {
-	return pb.KeyType2_ECDSA
+	return pb.KeyType2_ECDSA2
 }
 
 // Raw returns x509 bytes from a private key
@@ -152,7 +152,7 @@ func (ePriv *ECDSAPrivateKey) GetPublic() PubKey {
 
 // Type returns the key type
 func (ePub *ECDSAPublicKey) Type() pb.KeyType2 {
-	return pb.KeyType2_ECDSA
+	return pb.KeyType2_ECDSA2
 }
 
 // Raw returns x509 bytes from a public key

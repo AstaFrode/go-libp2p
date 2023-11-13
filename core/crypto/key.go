@@ -50,18 +50,18 @@ type PrivKeyUnmarshaller func(data []byte) (PrivKey, error)
 
 // PubKeyUnmarshallers is a map of unmarshallers by key type
 var PubKeyUnmarshallers = map[pb.KeyType2]PubKeyUnmarshaller{
-	pb.KeyType2_RSA:       UnmarshalRsaPublicKey,
-	pb.KeyType2_Ed25519:   UnmarshalEd25519PublicKey,
-	pb.KeyType2_Secp256k1: UnmarshalSecp256k1PublicKey,
-	pb.KeyType2_ECDSA:     UnmarshalECDSAPublicKey,
+	pb.KeyType2_RSA2:       UnmarshalRsaPublicKey,
+	pb.KeyType2_Ed255192:   UnmarshalEd25519PublicKey,
+	pb.KeyType2_Secp256k12: UnmarshalSecp256k1PublicKey,
+	pb.KeyType2_ECDSA2:     UnmarshalECDSAPublicKey,
 }
 
 // PrivKeyUnmarshallers is a map of unmarshallers by key type
 var PrivKeyUnmarshallers = map[pb.KeyType2]PrivKeyUnmarshaller{
-	pb.KeyType2_RSA:       UnmarshalRsaPrivateKey,
-	pb.KeyType2_Ed25519:   UnmarshalEd25519PrivateKey,
-	pb.KeyType2_Secp256k1: UnmarshalSecp256k1PrivateKey,
-	pb.KeyType2_ECDSA:     UnmarshalECDSAPrivateKey,
+	pb.KeyType2_RSA2:       UnmarshalRsaPrivateKey,
+	pb.KeyType2_Ed255192:   UnmarshalEd25519PrivateKey,
+	pb.KeyType2_Secp256k12: UnmarshalSecp256k1PrivateKey,
+	pb.KeyType2_ECDSA2:     UnmarshalECDSAPrivateKey,
 }
 
 // Key represents a crypto key that can be compared to another key
