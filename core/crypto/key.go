@@ -221,7 +221,7 @@ func PublicKeyToProto(k PubKey) (*pb.PublicKey, error) {
 		return nil, err
 	}
 	return &pb.PublicKey{
-		Type: k.Type().Enum(),
+		Type: *k.Type().Enum(),
 		Data: data,
 	}, nil
 }
@@ -250,7 +250,7 @@ func MarshalPrivateKey(k PrivKey) ([]byte, error) {
 		return nil, err
 	}
 	return proto.Marshal(&pb.PrivateKey{
-		Type: k.Type().Enum(),
+		Type: *k.Type().Enum(),
 		Data: data,
 	})
 }
